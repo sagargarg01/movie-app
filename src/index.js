@@ -7,10 +7,11 @@ import App from './components/App';
 import movies from './reducers';
 
 const store = createStore(movies);
-
+console.log("store",store);
+// console.log('BEFORE_STATE', store.getState());
 
 ReactDOM.render(
-    <App />,
+    <App store= {store} />,
   document.getElementById('root')
 );
 

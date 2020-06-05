@@ -5,7 +5,6 @@ class MovieCard extends React.Component {
    render() {
 
       const { movie } = this.props;
-      console.log(movie)
       return (
          <div className="movie-card">
             <div className="left">
