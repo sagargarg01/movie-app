@@ -13,10 +13,9 @@ class MovieCard extends React.Component {
       this.props.dispatch(removeFromFavourite(movie))
    }
 
-   render() {
+   render() { 
 
       const { movie, isFavourite } = this.props;
-      console.log(isFavourite)
       return (
          <div className="movie-card">
             <div className="left">
